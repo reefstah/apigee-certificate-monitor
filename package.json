@@ -1,0 +1,17 @@
+{
+  "name": "cert_monitor",
+  "version": "1.0.0",
+  "description": "Monitoring script for certificates",
+  "main": "index.js",
+  "scripts": {
+    "test": "certinfo",
+    "build": "rollup index.js -o dist/cert.js --f cjs"
+  },
+  "author": "vipul",
+  "license": "ISC",
+  "dependencies": {
+
+    "request-promise-native": "^1.0.5",
+    "rxjs": "^5.x.x"
+  }
+}
