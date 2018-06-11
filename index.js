@@ -34,7 +34,7 @@ function getSlackOptions(uri,payload){
 }
 
 
-exports.handler = (event,context,callback) => { 
+//exports.handler = (event,context,callback) => { 
     
 Observable
     .fromPromise(request(getOptions(uri)))
@@ -62,7 +62,7 @@ Observable
     );
 
     
-}
+//}
     // env + wfjj + sffsd
     
     // #1 env + firsResult
